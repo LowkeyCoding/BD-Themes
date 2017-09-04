@@ -3,16 +3,10 @@
 /* IMPORT CSS FROM GITHUB */
 @import url(https://gitcdn.xyz/repo/Zerthox/ClearVision/master/css/ClearVision_v5.min.css);
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
-@import url(https://github.com/loke0046/BD-Themes/blob/master/Northwood%20High.ttf?raw=true);
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ============== CUSTOMIZABLE COLORS ===============
 */
-@font-face {
-    font-family: UsernameFont;
-    src: url(https://github.com/loke0046/BD-Themes/blob/master/Northwood%20High.ttf);
-}
-
 :root {
 	--main-color: #219bc4;
 	--hover-color:  #bee6f4;
@@ -20,18 +14,18 @@
     --background-brightness: 400%;
 }
 .theme-dark .message-group.compact .message .markup .user-name {
-    font-family: UsernameFont;
+    font-family: 'Varela Round', sans-serif;
     font-size:125% 
 }
 .headerTagNormal-KyD3_J {
-    font-family: UsernameFont;
+    font-family: 'Varela Round', sans-serif;
     font-size:125% 
 }
-.chat>.content .messages .message-group a, .theme-dark .chat>.content .messages .message-group a{
+.message-group.compact .message .message-text .markup .message-content{
 	font-family: 'Varela Round', sans-serif; 
 }
 .channel-members .member .member-activity, .channel-members .member .member-username-inner {
-    font-family: UsernameFont;
+    font-family: 'Varela Round', sans-serif;
     font-size:125%
 }
 .channel-members .member .member-activity-text {
@@ -43,8 +37,12 @@
     font-size:100%
 }
 .userDefault-2_cnT0 {
-    font-family: UsernameFont;
+    font-family: 'Varela Round', sans-serif;
     font-size:125%
+}
+.theme-dark .textArea-20yzAH {
+    font-family: 'Varela Round', sans-serif;
+    font-size:100%
 }
 
 /*
