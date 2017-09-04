@@ -11,7 +11,7 @@
 	--main-color: #219bc4;
 	--hover-color:  #bee6f4;
     --background-blur: 3px;
-    --background-brightness: 400%;
+    --background-brightness: 100%;
 }
 .theme-dark .message-group.compact .message .markup .user-name {
     font-family: 'Varela Round', sans-serif;
@@ -81,10 +81,8 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.light label,
 .radio-theme.dark label{
-    background-image: url(https://www.ashesofcreation.com/wp-content/uploads/2017/06/forum-bg-new-6.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
-	opacity: 1.5;
+    background-image: url(http://cdn.mos.cms.futurecdn.net/ZCPARBrNiFCSAbJWWMNgTU.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
 }
 /*
 --------------------------------------------------------------------------------------------------------------------------------------------
 */
-
