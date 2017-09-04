@@ -2,7 +2,7 @@
 /* created by @Zerthox orginally, Editet by @loke0046 */
 /* IMPORT CSS FROM GITHUB */
 @import url(https://gitcdn.xyz/repo/Zerthox/ClearVision/master/css/ClearVision_v5.min.css);
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Josefin+Slab|Varela+Round');
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ============== CUSTOMIZABLE COLORS ===============
@@ -44,8 +44,25 @@
     font-family: 'Varela Round', sans-serif;
     font-size:100%
 }
-.chat>.content .messages .divider:not(.red) span, .theme-dark .chat>.content .messages .divider:not(.red) span {
-	opacity: .8
+#friends .friends-table .friends-row .friends-column-status .friend-activity-text, #friends .friends-table .friends-row .friends-column-status .status-text {
+    font-family: 'Varela Round', sans-serif;
+    font-size:100%
+}
+#friends .friends-table .friends-row .discord-tag .username {
+    font-family: 'Varela Round', sans-serif;
+    font-size:100%
+}
+.private-channels .channel .channel-name {
+    font-family: 'Varela Round', sans-serif;
+    font-size:100%
+}
+.private-channels .channel .channel-activity-text {
+    font-family: 'Varela Round', sans-serif;
+    font-size:100%
+}
+#friends .friends-header .tab-bar {
+    font-family: 'Varela Round', sans-serif;
+    font-size:100%
 }
 /*
 --------------------------------------------------------------------------------------------------------------------------------------------
@@ -65,6 +82,7 @@ body::after,
 .radio-theme.light label,
 .radio-theme.dark label{
     background-image: url(https://www.ashesofcreation.com/wp-content/uploads/2017/06/forum-bg-new-6.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+	opacity: 1.5;
 }
 /*
 --------------------------------------------------------------------------------------------------------------------------------------------
