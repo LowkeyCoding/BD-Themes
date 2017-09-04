@@ -44,7 +44,9 @@
     font-family: 'Varela Round', sans-serif;
     font-size:100%
 }
-
+.chat>.content .messages .divider:not(.red) span, .theme-dark .chat>.content .messages .divider:not(.red) span {
+	opacity: .8
+}
 /*
 --------------------------------------------------------------------------------------------------------------------------------------------
 */
