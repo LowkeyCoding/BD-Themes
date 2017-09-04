@@ -11,7 +11,7 @@
 	--main-color: #219bc4;
 	--hover-color:  #bee6f4;
     --background-blur: 3px;
-    --background-brightness: 100%;
+    --background-brightness: 110%;
 }
 .theme-dark .message-group.compact .message .markup .user-name {
     font-family: 'Varela Round', sans-serif;
