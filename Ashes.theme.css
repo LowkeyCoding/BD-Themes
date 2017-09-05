@@ -115,3 +115,11 @@ body::after,
     font-family: 'Varela Round', sans-serif;
     font-size:100% 
 }
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"], #bd-settings-sidebar .ui-tab-bar-item {
+    font-family: 'Varela Round', sans-serif;
+    font-size:100%
+}
+.chat>.title-wrap {
+    font-family: 'Varela Round', sans-serif;
+    font-size:100% 
+}
