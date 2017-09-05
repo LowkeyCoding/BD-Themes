@@ -2,7 +2,7 @@
 /* created by @Zerthox orginally, Editet by @loke0046 */
 /* IMPORT CSS FROM GITHUB */
 @import url('https://gitcdn.xyz/repo/Zerthox/ClearVision/master/css/ClearVision_v5.min.css');
-@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Josefin+Slab|Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ============== CUSTOMIZABLE COLORS ===============
@@ -67,7 +67,7 @@ body::after,
     font-family: 'Varela Round', sans-serif;
     font-size:100%
 }
-#friends .friends-table .friends-row .friends-column-status .friend-activity-text, #friends .friends-table .friends-row .friends-column-status .status-text {
+#friends .friends-table .friends-row .friends-column-status .friend-activity-text, #friends .friends-table .friends-row .friends-column-status .status-text {e:100%
     font-family: 'Varela Round', sans-serif;
     font-size:100%
 }
@@ -84,6 +84,26 @@ body::after,
     font-size:100%
 }
 #friends .friends-header .tab-bar {
+    font-family: 'Varela Round', sans-serif;
+    font-size:100%
+}
+.name-3gtcmp {
+    font-family: 'Varela Round', sans-serif;
+    font-size:100%
+}
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"], #bd-settings-sidebar .ui-tab-bar-item {
+    font-family: 'Varela Round', sans-serif;
+    font-size:100%
+}
+.ui-standard-sidebar-view .btn-close::after {
+    font-family: 'Varela Round', sans-serif;
+    font-size:100%
+}
+.ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
+    font-family: 'Varela Round', sans-serif;
+    font-size:100%
+}
+.checkbox .checkbox-inner+span {
     font-family: 'Varela Round', sans-serif;
     font-size:100%
 }
