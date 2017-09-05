@@ -2,7 +2,7 @@
 /* created by @Zerthox orginally, Editet by @loke0046 */
 /* IMPORT CSS FROM GITHUB */
 @import url('https://gitcdn.xyz/repo/Zerthox/ClearVision/master/css/ClearVision_v5.min.css');
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?Varela+Round');
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ============== CUSTOMIZABLE COLORS ===============
@@ -106,4 +106,12 @@ body::after,
 .checkbox .checkbox-inner+span {
     font-family: 'Varela Round', sans-serif;
     font-size:100%
+}
+#friends .friends-table .friends-row .friends-column-status .friend-activity-text, #friends .friends-table .friends-row .friends-column-status .status-text {
+    font-family: 'Varela Round', sans-serif;
+    font-size:100% 
+}
+.private-channels .channel a {
+    font-family: 'Varela Round', sans-serif;
+    font-size:100% 
 }
